@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "Ten10 Test Framework"
+version = "0.1.0"
+description = "Ten10 Playwright UI Test Framework"
+authors = ["Rachel Kennedy <rachel.alice.kennedy@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^8.4.2"
+playwright = "^1.55.0"
+
+[tool.poetry.dev-dependencies]
+playwright = "^1.55.0"
+pytest-playwright = "^0.7.1"
+pytest = "^8.4.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
