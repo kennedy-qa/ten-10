@@ -1,14 +1,18 @@
-Dependencies:
+### Dependencies:
 * Python
 * Poetry
 
-Install Dependencies
+### Install Dependencies
 `poetry install`
-Activate Virtual Environment
+
+### Activate Virtual Environment
 `poetry shell`
-Install Chromium Browser
+
+### Install Chromium Browser
 `poetry run playwright install chromium`
-Source environment variables (replace values in .env first)
+
+### Source environment variables (replace values in .env first)
 `source .env`
-Run Tests
+
+### Run Tests
 `poetry run pytest`
